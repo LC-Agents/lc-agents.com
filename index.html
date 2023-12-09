@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/_astro/404.ad416415.css" /><script type="module" src="/_astro/page.82f7f9d1.js"></script>
+<link rel="stylesheet" href="/_astro/404.ed3bf75c.css" /><script type="module" src="/_astro/page.82f7f9d1.js"></script>
 <script>!(function(w,p,f,c){c=w[p]=Object.assign(w[p]||{},{"lib":"/~partytown/","debug":false});c[f]=(c[f]||[]).concat(["dataLayer.push"])})(window,'partytown','forward');/* Partytown 0.7.6 - MIT builder.io */
 !function(t,e,n,i,r,o,a,d,s,c,p,l){function u(){l||(l=1,"/"==(a=(o.lib||"/~partytown/")+(o.debug?"debug/":""))[0]&&(s=e.querySelectorAll('script[type="text/partytown"]'),i!=t?i.dispatchEvent(new CustomEvent("pt1",{detail:t})):(d=setTimeout(f,1e4),e.addEventListener("pt0",w),r?h(1):n.serviceWorker?n.serviceWorker.register(a+(o.swPath||"partytown-sw.js"),{scope:a}).then((function(t){t.active?h():t.installing&&t.installing.addEventListener("statechange",(function(t){"activated"==t.target.state&&h()}))}),console.error):f())))}function h(t){c=e.createElement(t?"script":"iframe"),t||(c.setAttribute("style","display:block;width:0;height:0;border:0;visibility:hidden"),c.setAttribute("aria-hidden",!0)),c.src=a+"partytown-"+(t?"atomics.js?v=0.7.6":"sandbox-sw.html?"+Date.now()),e.body.appendChild(c)}function f(n,r){for(w(),i==t&&(o.forward||[]).map((function(e){delete t[e.split(".")[0]]})),n=0;n<s.length;n++)(r=e.createElement("script")).innerHTML=s[n].innerHTML,e.head.appendChild(r);c&&c.parentNode.removeChild(c)}function w(){clearTimeout(d)}o=t.partytown||{},i==t&&(o.forward||[]).map((function(e){p=t,e.split(".").map((function(e,n,i){p=p[i[n]]=n+1<i.length?"push"==i[n+1]?[]:p[i[n]]||{}:function(){(t._ptf=t._ptf||[]).push(i,arguments)}}))})),"complete"==e.readyState?u():(t.addEventListener("DOMContentLoaded",u),t.addEventListener("load",u))}(window,document,navigator,top,window.crossOriginIsolated);</script><header class="p-4 dark:bg-gray-800 dark:text-gray-100">
 	<div class="container flex justify-between h-16 mx-auto">
@@ -151,6 +151,30 @@
 		</div>
 	</div>
 </section>
+<div class="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 dark:bg-gray-800 dark:text-gray-100">
+	<div class="flex flex-col justify-between">
+		<div class="space-y-2">
+			<h2 class="text-4xl font-bold leadi lg:text-5xl">Let's talk!</h2>
+			<div class="dark:text-gray-400">Vivamus in nisl metus? Phasellus.</div>
+		</div>
+		<img src="assets/svg/doodle.svg" alt="" class="p-6 h-52 md:h-64">
+	</div>
+	<form novalidate="" class="space-y-6">
+		<div>
+			<label for="name" class="text-sm">Full name</label>
+			<input id="name" type="text" placeholder="" class="w-full p-3 rounded dark:bg-gray-800" data-ddg-inputtype="identities.fullName">
+		</div>
+		<div>
+			<label for="email" class="text-sm">Email</label>
+			<input id="email" type="email" class="w-full p-3 rounded dark:bg-gray-800" data-ddg-inputtype="identities.emailAddress" data-ddg-autofill="true" style="background-size: auto 24px !important; background-position: right center !important; background-repeat: no-repeat !important; background-origin: content-box !important; background-image: url(&quot;chrome-extension://bkdgflcldnnnapblkhphbgpggdiikppg/img/logo-small-grayscale.svg&quot;) !important; transition: background 0s ease 0s !important;">
+		</div>
+		<div>
+			<label for="message" class="text-sm">Message</label>
+			<textarea id="message" rows="3" class="w-full p-3 rounded dark:bg-gray-800"></textarea>
+		</div>
+		<button type="submit" class="w-full p-3 text-sm font-bold tracki uppercase rounded dark:bg-violet-400 dark:text-gray-900">Send Message</button>
+	</form>
+</div>
 
 <footer class="dark:bg-gray-800 dark:text-gray-50">
 	<div class="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row dark:divide-gray-400">
